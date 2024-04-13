@@ -32,7 +32,7 @@ def main():
     login()
 
     # Provide a link to sign up page
-    st.markdown("New user? [Sign up here](signup)")
+    st.markdown("New user? [Sign up here](https://streamapp-dev-sign.streamlit.app/)")
 
 # Login page
 def login():
