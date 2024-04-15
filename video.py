@@ -21,7 +21,6 @@
 
 import streamlit as st
 import cv2
-import numpy as np
 
 def main():
     st.title("Streamlit Webcam Player")
