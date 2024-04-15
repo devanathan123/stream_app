@@ -1,6 +1,5 @@
 streamlit
 firebase_admin
 requests
-pyrebase4
 numpy
 cv2
