@@ -3,7 +3,7 @@ import streamlit as st
 def main():
     st.title("Streamlit Video Player")
 
-    Google Drive video URL
+    #Google Drive video URL
     video_url = "https://firebasestorage.googleapis.com/v0/b/fir-ec695.appspot.com/o/t-15%2Finput_side.mp4?alt=media&token=0cf29a63-b98b-451a-a9f5-7e2d71caf9c3"  # Replace "your-file-id" with the actual file ID
 
     Display the video
