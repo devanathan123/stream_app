@@ -3,13 +3,13 @@ import pyrebase
 import requests
 
 firebaseConfig = {
-  'apiKey': "Your-API-Key",
-  'authDomain': "Your-Auth-Domain",
-  'projectId': "Your-Project-ID",
-  'storageBucket': "Your-Storage-Bucket",
-  'messagingSenderId': "Your-Messaging-Sender-ID",
-  'appId': "Your-App-ID",
-  'measurementId': "Your-Measurement-ID"
+  'apiKey': "AIzaSyD4BW3b9_7ZwO2pJ6Xp_imLc1YIkk-8y-U",
+  'authDomain': "fir-ec695.firebaseapp.com",
+  'projectId': "fir-ec695",
+  'storageBucket': "fir-ec695.appspot.com",
+  'messagingSenderId': "651558941637",
+  'appId': "1:651558941637:web:be19b9b60cc38aadd111ac",
+  'measurementId': "G-TH3ZJPWKM1"
 }
 
 # Initialize Pyrebase app
