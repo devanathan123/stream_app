@@ -1,7 +1,7 @@
 streamlit
 firebase_admin
 requests
-
+python<=3.10
 # Object Detection Course
 
 cvzone==1.5.6
