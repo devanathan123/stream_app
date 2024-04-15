@@ -1,4 +1,5 @@
 streamlit
 firebase_admin
 requests
-pyrebase
+pyrebase4
+
