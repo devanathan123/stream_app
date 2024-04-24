@@ -22,8 +22,16 @@ def main():
     cap = cv2.VideoCapture(0)
     load = st.button("STOP")
     stframe = st.empty()
+
+    left_limits1 = [0, 450, 1920,450]
+    left_limits2 = [0, 500, 1920,500]
+    
     while not load:
         success, img = cap.read()
+        cv2.line(img, (left_limits1[0], left_limits1[1]), (left_limits1[2], left_limits1[3]), (0, 0, 255), 5)
+        cv2.line(img, (left_limits2[0], left_limits2[1]), (left_limits2[2], left_limits2[3]), (255, 0, 0), 5)
+
+        
         if not success:
             break
 
